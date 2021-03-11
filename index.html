@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title> Mars </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />   
+    <style>
+        .uk-navbar-dropdown{ background: black;}
+        .uk-navbar-nav li a{ color: coral; }
+        .uk-navbar-nav li a:hover{color: white;}
+        p{padding: 5px 10px 10px 60px; font-size:larger; color: white;}
+        
+         .id11{
+             
+             width: 750px;
+             margin-left: 10px;
+             border-radius: 25px;
+             }
+             .id11:hover {background-color:  red;}
+             .id1,.id2,.id3{border: 1px solid green;}
+          
+         
+           table tr #td1{
+               margin-bottom: 50px;
+               color: tomato;
+           }
+
+           table tr #td2{
+               color:teal;
+           }
+           table tr td{
+               padding-right: 65px;
+               padding-bottom: 20px;
+           }
+           body{
+               background-color:black;
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+        
+    </style>    
+    </head>
+    <body>
+       
+        
+        <div class="uk-position-relative" style="z-index: 2;">
+        <div class="uk-position-top">
+         <nav class="uk-navbar-container uk-navbar-transparent"
+         uk-navbar>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                  <li><a href="#" >Home</a></li>
+                  <li><a href="#">Mission</a>
+                   <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li> <a href="#"> About EMM </a> </li> 
+                        <li> <a href="#"> Science </a> </li> 
+                        <li> <a href="#"> Beyond Science </a> </li> 
+                   </div> </li>
+                   
+                 <li> <a href="#">Hope Probe</a>
+                  <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                     <li> <a href="#">Instruments</a></li>
+                      <li><a href="#">Launch Vehicle</a></li>
+                      <li> <a href="#">Ground Segment </a></li>
+                  </ul></div> </li>
+
+                      <li><a href="#">Journey</a>
+                       <div class="uk-navbar-dropdown">
+                           <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li> <a href="#">Journey</a></li>
+                        <li><a href="#">Track the Hope Probe</a></li>   
+                           </ul></div><li>
+                  </ul>  
+            </div> 
+        </nav> 
+    </div> 
+</div>
+               
+                  
+                  
+                 
+                <div class="uk-position-relative uk-visible-toggle uk-light"   tabindex="-1" uk-slideshow="autoplay:true">
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img data-src="pic2.png" width="1400" height="800" alt="" uk-img="target: !ul > :last-child, !* +*">
+                        </li>
+                        <li>
+                            <img data-src="pic1.png" width="1400" height="500px" alt="" uk-img="target: !* -*, !* +*">
+                        </li>
+                        <li>
+                            <img data-src="pic4.png" width="1400" height="500" alt="" uk-img="target: !* -*, !ul > :first-child">
+                        </li>
+                    </ul> 
+                   
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>  
+                </div>
+                
+                <div class="uk-panel">
+                    <img class="uk-align-right uk-margin-remove-adjacent" src= "pic3.png" width="450" height="250" alt="Example image" style="padding: 60px 60px;">
+                    <h1 style="padding: 40px 30px 10px 60px; color:tomato; font-family:fantasy;" > ABOUT EMM </h1>
+                      <p>The Emirates Mars Mission "Hope Probe" will be the first probe to provide a complete picture of the Martian atmosphere and its layers when it reaches the red planet’s orbit in 2021. It will help answer key questions about the global Martian atmosphere and the loss of hydrogen and oxygen gases into space over the span of one Martian year..
+                      </p>
+
+                     <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;
+                     color: chocolate; padding-left: 140px;"> <b> OBJECTIVES </b> </h2>
+                        <p style="padding-left: 140px;">The <b style="color: red;"> First Complete Picture </b> of the Martian Atmosphere.</p>
+                    <div class="id11">
+                        <div class="id1">
+                            <p> 
+                                Understand climate dynamics and the global weather map through characterizing the lower atmosphere of Mars.
+                            </p>
+                        </div>
+                        <div class="id2">   
+                            <p>   
+                                Explain how the weather changes the escape of Hydrogen and Oxygen through correlating the lower atmosphere conditions with the upper atmosphere.
+                            </p>
+                        </div>
+                        <div class="id3" style="margin-bottom: 90px;">
+                            <p>                                   
+                               Understand the structure and variability of Hydrogen and Oxygen in the upper atmosphere, as well as identifying why Mars is losing them into space. 
+                            </p> 
+                         </div>
+                    </div>
+                 </div>
+
+
+                <div class="uk-panel">
+                    <img class="uk-align-left uk-margin-remove-adjacent" src= "pic5.png" width="650" height="450" alt="Example image" style="padding: 10px 60px 20px 60px;">
+                    <div style="border: 2px solid rgba(0, 0, 0, 0.219); background-color: tomato;
+                    margin:50px 100px 0px 650px; padding-top: 20px;;"> 
+                        <h1 style="color: white; font-family:fantasy; 
+                        text-align: center;" >
+                         MISSION HIGHLIGHTS </h1>
+                     </div> 
+                     <div style="border: 2px solid rgba(236, 102, 102, 0.884);background-color:rgb(179, 185, 204);margin:0px 100px 0px 650px;">
+                        <table>
+                           <tr>
+                               <td id="td1">  NAME </td>
+                               <td id="td2"> Emirates Mars Mission </td>
+                           </tr> 
+                           <tr>
+                            <td id="td1"> PROBE NAME </td>
+                            <td id="td2">  Hope Probe</td>
+                        </tr>
+                        <tr>
+                            <td id="td1"> LAUNCH LOCATION </td>
+                            <td id="td2">  Tanegashima​ Space Centre​, Japan </td>
+                        </tr>
+                        
+                            <td id="td1"> LAUNCH </td>
+                            <td id="td2">  20th July 2020, 12:58 AM (Dubai Time) </td>
+                        </tr>
+                        <tr>
+                            <td id="td1"> CRUISING DISTANCE </td>
+                            <td id="td2"> 493.5 Million km </td>
+                        </tr>
+                        <tr>
+                            <td  id="td1"> MISSION DURATION </td>
+                            <td id="td2"> One Martian Year (about 2 Earth years) </td>
+                        </tr>
+                        
+                        </table>
+                    </div>
+                 </div>  
+                 
+                 
+                 <div class="uk-panel">
+                    <img class="uk-align-right uk-margin-remove-adjacent" src= "pic6.png" width="650" height="450" alt="Example image" style="padding: 60px 60px;">
+
+                    <h1 style="padding: 60px 60px 10px 60px; color:white; font-family:fantasy; margin-left: 140px;" > WHY MARS </h1>
+                    <h2 style="color:coral; margin-left: 140px;"> WHY ARE WE EXPLORING MARS? </h2>
+                    <p style="padding-bottom: 151px;">
+                        The red planet has captured human imagination for centuries. Now, we are at a junction where we know a great deal about the planet, and we have the vision and technology to explore further. Mars is an obvious target for exploration for many reasons. From our pursuit to find extra-terrestrial life to someday expand human civilization to other planets, Mars serves as a long-term and collaborative project for the entire human race.
+                    </p>
+                        <hr class="uk-divider-icon">
+                    <h1 style="font-family: cursive; color: white; margin-left: 400px;padding-bottom: 50px;">  EMM TEAM </h1>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="0" uk-slideshow>
+
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img data-src="pic1.png" width="600" height="800" alt=""  uk-img="target: !.uk-slideshow-items">
+                            </li>
+                            <li>
+                                <img data-src="pic5.png" width="300" height="600" alt=""  uk-img="target: !.uk-slideshow-items">
+                            </li>
+                            <li>
+                                <img data-src="pic4.png" width="400" height="600" alt=""  uk-img="target: !.uk-slideshow-items">
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"> Previous</a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"> Next</a>
+                    
+
+                    
+                    </div>
+
+                    
+                
+                
+                  
+
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>
